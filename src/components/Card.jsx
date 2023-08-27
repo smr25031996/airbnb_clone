@@ -1,9 +1,8 @@
 import staricon from "../assets/star.jpg";
 export default function Card(props) {
   return (
-    <div className="grid-container">
       <div className="grid-item">
-        <img src={props.img} alt="" />
+        <img src={props.img } alt="" />
         <span>
           <img src={staricon} alt="" />
           <small>
@@ -18,6 +17,5 @@ export default function Card(props) {
           </p>
         </span>
       </div>
-    </div>
   );
 }
