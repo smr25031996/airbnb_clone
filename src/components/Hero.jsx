@@ -1,4 +1,4 @@
-import heroImg from "../assets/Group.png"
+import heroImg from "/assets/Group.png"
 export default function Hero(){
     return(
         <div>
